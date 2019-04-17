@@ -14,4 +14,18 @@ var appData = {
 appData.expenses.st=hm;
 var oneDay = (appData.money - appData.expenses.st)/30;
 alert('Расход на один день: '+oneDay);
-
+let x = 2 && 1 && null && 0 && undefined; 
+alert( !!(1 && 2 )); 
+let y = [ ] + false - null + true;
+console.log( y ); 
+let q = 1; let w = q = 2; alert('третий вопрос '+ w);
+let t=[ ] + 1 + 2; alert('четвертый вопрос '+ t);
+alert( "1"[0] );
+let a = [1, 2, 3], 
+    b = [1, 2, 3];
+    if ("Ёжик" > "яблоко"){
+alert( 'true');}else{
+    alert('false')
+}
+let p=0 || "" || 2 || undefined || true || falsе;
+alert(p );
